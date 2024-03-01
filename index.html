@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Watch</title>
+    <!-- Links boostrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Links css -->
+    <link rel="stylesheet" href="../websiteWatch/css/style.css">
+    <!-- Links Font -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <!-- header -->
+    <header class="header d-flex">
+        <div class="col-lg-4 header-hotline">
+            <span class="header-hotline__title">hotline đặt hàng:
+            <a class="header-hotline__phone" href="#">1900 6750</a></span>
+        </div>
+        <div class="col-lg-4 header-logo">
+            <img src="../websiteWatch/images/logo.png" alt="">
+        </div>
+        <div class="col-lg-4 header-info d-flex">
+            <div class="header-info__account dropdown">
+                <span   id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    Tài khoản
+                </span>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Đăng kí</a></li>
+                    <li><a class="dropdown-item" href="#">Đăng nhập</a></li>
+                </ul>
+            </div>
+            <div class="header-info__cart ">
+                <a href="">Giỏ hàng
+                  <i class="fas fa-cart-plus"></i>
+                  <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-dark">
+                    0
+                    <span class="visually-hidden">unread messages</span>
+                  </span>
+                </a>
+            </div>
+            <div class="header-info__search">
+                <i class="fas fa-search"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ===================== MENU======================= -->
+    <section class="menu">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+          <a class=" nav-link" href="#">Trang chủ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" >
+                  Giới thiệu
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chính sách đổi hàng</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Chính sách thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Hệ thống cữa hàng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nam
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chính sách đổi hàng</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Chính sách thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Hệ thống cữa hàng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Nữ
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chính sách đổi hàng</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Chính sách thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Hệ thống cữa hàng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Phụ kiện
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chính sách đổi hàng</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Chính sách thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Hệ thống cữa hàng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sản phẩm
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Chính sách đổi hàng</a></li>
+                  <li><a class="dropdown-item" href="#">FAQ</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Chính sách thanh toán</a></li>
+                  <li><a class="dropdown-item" href="#">Hệ thống cữa hàng</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tin Tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- =====================END MENU======================= -->
+
+
+    <!-- ===================== SLIDER ======================= -->
+    <section class="slider">
+      <img src="../websiteWatch/images/slider_1.jpg" alt="">
+    </section>
+ 
+    <!-- =====================END SLIDER======================= -->
+
+
+
+    <!-- ===================== PRODUCT NEWS ======================= -->
+    <section>
+        <div class="container">
+            <div class="row productnews">
+                <div class="col-lg-12 productnews-title">
+                    <h2>sản phẩm mới</h2>
+                    <span>
+                        <a href="#">Nam</a>
+                        <span>/</span>
+                        <a href="#">Nữ</a>
+                        <span>/</span>
+                        <a href="#">Phụ kiện</a>
+                    </span>
+                </div>
+            </div>
+            <div class="row productnews-content">
+              <!-- == card 1 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <span class="card-sale">-11%</span>
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 2 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <span class="card-sale">-11%</span>
+                  <img src="../websiteWatch/images/productnews/1-11695803e29a4e9bbd9f3efd62c975dd-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 3 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <span class="card-sale">-11%</span>
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 4 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-black-link-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">black link </a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+            </div>
+            <div class="row productnews-all">
+              <div class="col-lg-12 text-center">
+                <a class="btn" href="#"> XEM TẤT CẢ .SẢN PHẨM MỚI</a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====================END PRODUCT NEWS ======================= -->
+
+
+
+
+    <!-- ===================== BANNER ======================= -->
+    <section>
+      <div class="container">
+        <div class="row banner">
+          <div class="col-lg-4 banner-item ">
+            <img class="banner-img" src="../websiteWatch/images/banner/photo-1472417583565-62e7bdeda490.jfif" alt="">
+            <div class="banner-info">
+              <h4 class="banner-info__title">ĐỒNG HỒ</h4>
+              <a class="banner-info__button">xem thêm</a>
+            </div>
+          </div>
+          <div class="col-lg-4 banner-item ">
+            <img class="banner-img" src="../websiteWatch/images/banner/ant_index_banner_1.jpg" alt="">
+            <div class="banner-info">
+              <h4 class="banner-info__title">mắt kính</h4>
+              <a class="banner-info__button">xem thêm</a>
+            </div>
+          </div>
+          <div class="col-lg-4 banner-item ">
+            <img class="banner-img" src="../websiteWatch/images/banner/photo-1584208124193-df98a65afaf6.jfif" alt="">
+            <div class="banner-info">
+              <h4 class="banner-info__title">trang sức</h4>
+              <a class="banner-info__button">xem thêm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================END BANNER ======================= -->
+
+
+      <!-- ===================== PRODUCT DANH CHO NAM ======================= -->
+      <section>
+        <div class="container">
+            <div class="row productnews">
+                <div class="col-lg-12 productnews-title">
+                    <h2>DANH CHO NAM</h2>
+                    <span>
+                        <a href="#">Nam</a>
+                        <span>/</span>
+                        <a href="#">Nữ</a>
+                        <span>/</span>
+                        <a href="#">Phụ kiện</a>
+                    </span>
+                </div>
+            </div>
+            <div class="row productnews-content">
+              <!-- == card 1 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 2 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <span class="card-sale">-11%</span>
+                  <img src="../websiteWatch/images/productnews/1-11695803e29a4e9bbd9f3efd62c975dd-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 3 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+              <!-- == card 4 == -->
+              <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                <div class="card m-auto" style="width: 18rem;">
+                  <span class="card-sale">-11%</span>
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-black-link-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+            </div>
+            <div class="row productnews-all">
+              <div class="col-lg-12 text-center">
+                <a class="btn" href="#"> XEM TẤT CẢ .DANH CHO NAM</a>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- =====================END PRODUCT DANH CHO NAM ======================= -->
+
+
+      <!-- ===================== PHỤ KIỆN MỚI ======================= -->
+      <section>
+        <section>
+          <div class="container">
+              <div class="row productnews">
+                  <div class="col-lg-12 productnews-title">
+                      <h2>phụ kiện mới</h2>
+                      <span>
+                          <a href="#">Nam</a>
+                          <span>/</span>
+                          <a href="#">Nữ</a>
+                          <span>/</span>
+                          <a href="#">Phụ kiện</a>
+                      </span>
+                  </div>
+              </div>
+              <div class="row productnews-content">
+                <!-- == card 1 == -->
+                <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                  <div class="card m-auto" style="width: 18rem;">
+                    <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="#" class="card-title text-center">CRUX</a>
+                      <div class="card-price">
+                        <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                        <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                      </div>
+                    </div>
+                    <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                  </div>
+                </div>
+                <!-- == card 2 == -->
+                <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                  <div class="card m-auto" style="width: 18rem;">
+                    <img src="../websiteWatch/images/productnews/1-11695803e29a4e9bbd9f3efd62c975dd-master.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="#" class="card-title text-center">CRUX</a>
+                      <div class="card-price">
+                        <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                        <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                      </div>
+                    </div>
+                    <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                  </div>
+                </div>
+                <!-- == card 3 == -->
+                <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                  <div class="card m-auto" style="width: 18rem;">
+                    <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="#" class="card-title text-center">CRUX</a>
+                      <div class="card-price">
+                        <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                        <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                      </div>
+                    </div>
+                    <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                  </div>
+                </div>
+                <!-- == card 4 == -->
+                <div class="col-md-4 col-lg-3 col-sm-6 productnews-content__item">
+                  <div class="card m-auto" style="width: 18rem;">
+                    <img src="../websiteWatch/images/productnews/dong-ho-mvmt-black-link-master.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <a href="#" class="card-title text-center">CRUX</a>
+                      <div class="card-price">
+                        <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                        <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                      </div>
+                    </div>
+                    <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                  </div>
+                </div>
+              </div>
+              <div class="row productnews-all">
+                <div class="col-lg-12 text-center">
+                  <a class="btn" href="#"> XEM TẤT CẢ .PHỤ KIỆN MỚI</a>
+                </div>
+              </div>
+          </div>
+      </section>
+    <!-- =====================END PHỤ KIỆN MỚI ======================= -->
+
+
+    <!-- ===================== BỘ SƯU TẬP ======================= -->
+    <div class="container-fluid collection">
+      <div class="row ">
+        <div class="col-md-8 collection-item">
+          <h2 class="collection-item__title ">bộ sưu tập 
+            <a class="title" href="">mùa hè</a>
+          </h2>
+          <div class="row">
+            <div class="col-md-6  col-6 collection-item__images">
+              <img src="../websiteWatch/images/collection/index-evo-icon-1.jpg" class="img-fluid" alt="">
+            </div>
+              <!-- == card 1 == -->
+              <div class="col-md-6  col-6">
+                <div class="card" >
+                  <img src="../websiteWatch/images/productnews/dong-ho-mvmt-crux-master.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a href="#" class="card-title text-center">CRUX</a>
+                    <div class="card-price">
+                      <p class="card-pricenews">4.800.000 <sup>đ</sup></p>
+                      <p class="card-pricesale">5.400.000 <sup>đ</sup></p>
+                    </div>
+                  </div>
+                  <a href="#" class="btn1 btn">Thêm vào giỏ hàng</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- =====================END BỘ SƯU TẬP ======================= -->
+
+
+
+
+    <!-- ===================== TIN TỨC ======================= -->
+    <section>
+      <div class="container new">
+        <div class="row ">
+          <div class="col-lg-12 new-title">
+              <a href="#"> tin tức <span> evo watch</span></a>
+          </div>
+      </div>
+        <div class="row pt-4">
+          <!-- new 1 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 news-item">
+            <div class="new-item__img">
+              <img src="../websiteWatch/images/news/lduchen-d-161.11.23-silver-snake-7-e1499413606845.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="new-item__title py-2">
+              <a href="#">mạnh mẽ cuốn hút với đồng hồ mặt rắn L'Duchen </a>
+            </div>
+            <div class="new-item__desc">
+              <p>Thương hiệu đồng hồ thụy sĩ L'Duchen đã mở rộng bộ sưu tập Art Collection của mình với mẫu đồng hồ Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vel, deleniti consequatur, fuga praesentium saepe nisi velit dolores numquam, aperiam officia facere nihil cum. Mollitia nisi facere saepe corporis sunt.</p>
+            </div>
+          </div>
+          <!-- new 2 -->
+          <div class="col-lg-3 col-md-4 col-sm-6 news-item">
+            <div class="new-item__img">
+              <img src="../websiteWatch/images/news/chronograph2048x2048.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="new-item__title py-2">
+              <a href="#">chuyên gia chia sẻ 4 cách phân biệt đồng hồ thật giả</a>
+            </div>
+            <div class="new-item__desc">
+              <p>Thương hiệu đồng hồ thụy sĩ L'Duchen đã mở rộng bộ sưu tập Art Collection của mình với mẫu đồng hồ Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vel, deleniti consequatur, fuga praesentium saepe nisi velit dolores numquam, aperiam officia facere nihil cum. Mollitia nisi facere saepe corporis sunt.</p>
+            </div>
+          </div>
+           <!-- new 2 -->
+           <div class="col-lg-3 col-md-4 col-sm-6 news-item">
+            <div class="new-item__img">
+              <img src="../websiteWatch/images/news/ban-biet-gi-ve-dong-ho-chronograph-1552766551.jpg" class="img-fluid" alt="">
+            </div>
+            <div class="new-item__title py-2">
+              <a href="#">mạnh mẽ cuốn hút với đồng hồ mặt rắn L'Duchen </a>
+            </div>
+            <div class="new-item__desc">
+              <p>Thương hiệu đồng hồ thụy sĩ L'Duchen đã mở rộng bộ sưu tập Art Collection của mình với mẫu đồng hồ Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vel, deleniti consequatur, fuga praesentium saepe nisi velit dolores numquam, aperiam officia facere nihil cum. Mollitia nisi facere saepe corporis sunt.</p>
+            </div>
+          </div>
+           <!-- new 2 -->
+           <div class="col-lg-3 col-md-4 col-sm-6 news-item">
+            <div class="new-item__img">
+              <img src="../websiteWatch/images/news/4-ways-to-create-a-more-stable-healthy-work-environment.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="new-item__title py-2">
+              <a href="#">tại sao nên yêu công việc của mình ? </a>
+            </div>
+            <div class="new-item__desc">
+              <p>Thương hiệu đồng hồ thụy sĩ L'Duchen đã mở rộng bộ sưu tập Art Collection của mình với mẫu đồng hồ Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vel, deleniti consequatur, fuga praesentium saepe nisi velit dolores numquam, aperiam officia facere nihil cum. Mollitia nisi facere saepe corporis sunt.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row productnews-all pt-3">
+          <div class="col-lg-12 text-center">
+            <a class="btn" href="#"> XEM TẤT CẢ</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- =====================END TIN TỨC ======================= -->
+
+
+
+
+    <!-- ===================== FOOTER ======================= -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4 col-lg-3 col-sm-6 footer">
+            <div class="footer-item">
+              <img class="img-fluid footer-item__logo" src="../websiteWatch/images/logo.png" alt="">
+              <a class="footer-item__map pt-5" href="#"><i class="fas fa-map-marker-alt"></i> Đội 12, thôn Xuân Mỹ, Tuy Phước, Bình Định</a>
+              <a class="footer-item__phone" href=""><i class="fas fa-phone"></i> 1900 6750</a>
+              <a class="footer-item__gmail" href=""><i class="far fa-envelope-open"></i> huynhngocloc@gmail.com</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="footer-item">
+              <h3 class="footer-item__title">MUA HÀNG</h3>
+              <a class="footer-item__category pt-4" href="#">nam</a>
+              <a class="footer-item__category" href="#">nữ</a>
+              <a class="footer-item__category" href="#">phụ kiện</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="footer-item">
+              <h3 class="footer-item__title">DỊCH VỤ KHÁCH HÀNG</h3>
+              <a class="footer-item__category pt-4" href="#">nam</a>
+              <a class="footer-item__category" href="#">nữ</a>
+              <a class="footer-item__category" href="#">phụ kiện</a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-3 col-sm-6">
+            <div class="footer-item">
+              <h3 class="footer-item__title pb-4">ĐĂNG KÍ NHẬN TIN</h3>
+              <span class="footer-item__desc ">nhận thông tin sản phẩm mới nhất, tin khuyến mãi và nhiều hơn nữa</span>
+              <input class="footer-item__input" type="text" placeholder="Email của bạn ">
+              <div class="footer-item__btn">
+                <a href="#">Đăng kí</a>
+              </div>
+              <div class="footer-item__pay">
+                <a href="#">
+                  <img src="../websiteWatch/images/footer/payment_1.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="../websiteWatch/images/footer/payment_2.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="../websiteWatch/images/footer/payment_3.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="../websiteWatch/images/footer/payment_4.svg" alt="">
+                </a>
+                <a href="#">
+                  <img src="../websiteWatch/images/footer/payment_5.svg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <hr>
+    <div class="copyright d-flex  ">
+      <p class="m-auto py-3">@ Huỳnh ngọc lộc</p>
+    </div>
+    <!-- =====================END FOOTER ======================= -->
+
+   
+
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
